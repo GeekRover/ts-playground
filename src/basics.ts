@@ -14,8 +14,22 @@ class Person {
   }
 }
 
+class Retard extends Person {
+  gooningStatus: boolean;
+  constructor(
+    name: string,
+    age: number,
+    address: string,
+    gooningStatus: boolean,
+  ) {
+    super(name, age, address);
+    this.gooningStatus = gooningStatus;
+  }
 
-
+  goonFor(hours: number) {
+    
+  }
+}
 
 //instance
 const Lodu = new Person("Lodu Mia", 24, "Noakhali");
