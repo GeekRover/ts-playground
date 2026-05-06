@@ -14,6 +14,9 @@ class Person {
   }
 }
 
+
+
+
 //instance
 const Lodu = new Person("Lodu Mia", 24, "Noakhali");
 

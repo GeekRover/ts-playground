@@ -43,7 +43,7 @@ ts-playground/
 ```bash
 git clone https://github.com/GeekRover/ts-playground.git
 cd ts-playground
-npm install
+npm install -g typescript
 ```
 
 ### Running Examples
@@ -51,9 +51,6 @@ npm install
 To compile and run TypeScript files:
 
 ```bash
-#install TS
-npm i -g typescript
-
 # Compile TypeScript
 tsc
 
