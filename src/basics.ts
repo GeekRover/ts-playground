@@ -27,7 +27,7 @@ class Retard extends Person {
   }
 
   goonFor(hours: number) {
-    
+    console.log(`${this.name} Goons for ${hours} hours.`);
   }
 }
 
